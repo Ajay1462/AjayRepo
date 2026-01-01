@@ -16,8 +16,9 @@ public class AbTestingDef {
         this.abTestingElement=textcontextsetup.pageObjectManager.getAbTestingElement();
     }
     @Given("I am on App page")
-    public boolean i_am_on_app_page() {
-        return true;
+    public void i_am_on_app_page() {
+        System.out.println("new code");
+        System.out.println("new code by mac");
     }
     @When("i click on {string} page link")
     public void i_click_on_page_link(String string) {
